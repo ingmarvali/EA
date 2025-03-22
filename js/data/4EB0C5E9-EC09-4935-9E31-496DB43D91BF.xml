@@ -1,0 +1,8 @@
+tocTab[tocTab.length] = new Array("0.2.3.7:1", "", "Communicatiegegeven", "EARoot/EA2/EA3/EA7/EA265.htm", "175.png", "1694", "0", "", "Logical diagram0","{0D1D3FA9-35E2-4285-AB5A-737002514B96}");
+tocTab[tocTab.length] = new Array("0.2.3.7:2", "", "«gegevensgroep» Communicatiegegeven", "EARoot/EA2/EA3/EA7/EA268.htm", "5.png", "E8761", "0", "", "Class0","{F86681AF-B51B-4874-8B1E-1DF4CD1DCDCA}");
+tocTab[tocTab.length] = new Array("0.2.3.7:3", "", "«afgeleid» Communicatiegegeven-MaatschappelijkeActiviteit", "EARoot/EA2/EA3/EA7/EA269.htm", "5.png", "E8760", "0", "", "Class0","{EA5ADB02-D575-4da0-B87F-F4FE5711B56A}");
+tocTab[tocTab.length] = new Array("0.2.3.7:4", "", "«gegevensgroep» Communicatiegegeven-Rechtspersoon", "EARoot/EA2/EA3/EA7/EA270.htm", "5.png", "E8759", "0", "", "Class0","{D58D41DA-E989-4720-BCF2-4E8454B1C472}");
+tocTab[tocTab.length] = new Array("0.2.3.7:5", "", "«gegevensgroep» Communicatiegegeven-Vestiging", "EARoot/EA2/EA3/EA7/EA271.htm", "5.png", "E8758", "0", "", "Class0","{CA6FF829-A022-4d6c-BFFD-3FEF10086327}");
+tocTab[tocTab.length] = new Array("0.2.3.7:6", "", "«gegevensgroep» Communicatienummer", "EARoot/EA2/EA3/EA7/EA272.htm", "5.png", "E8757", "0", "", "Class0","{75A505BC-5B87-43f6-B037-CFEA9BE297EC}");
+tocTab[tocTab.length] = new Array("0.2.3.7:7", "", "«gegevensgroep» Domeinnaam", "EARoot/EA2/EA3/EA7/EA273.htm", "5.png", "E8755", "0", "", "Class0","{1413F5B1-DE9D-4a1b-A519-19860FB91BA4}");
+tocTab[tocTab.length] = new Array("0.2.3.7:8", "", "«gegevensgroep» EmailAdres", "EARoot/EA2/EA3/EA7/EA274.htm", "5.png", "E8756", "0", "", "Class0","{618A969A-5E43-4514-8FD8-E56B3D535DD5}");

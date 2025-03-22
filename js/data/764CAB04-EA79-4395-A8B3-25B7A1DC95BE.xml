@@ -1,0 +1,8 @@
+tocTab[tocTab.length] = new Array("0.2.3.2:1", "", "Activiteit", "EARoot/EA2/EA3/EA2/EA232.htm", "175.png", "1693", "0", "", "Logical diagram0","{D9AD13EA-E7DC-416a-B55A-EDA6A678F95E}");
+tocTab[tocTab.length] = new Array("0.2.3.2:2", "", "«gegevensgroep» Activiteiten", "EARoot/EA2/EA3/EA2/EA235.htm", "5.png", "E8747", "0", "", "Class0","{057912F6-0BC3-4500-8AD1-9F818FF25250}");
+tocTab[tocTab.length] = new Array("0.2.3.2:3", "", "«gegevensgroep» SBI-Activiteit", "EARoot/EA2/EA3/EA2/EA236.htm", "5.png", "E8749", "0", "", "Class0","{332CC03C-5A90-4074-95A4-C2D578B79102}");
+tocTab[tocTab.length] = new Array("0.2.3.2:4", "", "«gegevensgroep» Activiteiten-MaatschappelijkeActiviteit", "EARoot/EA2/EA3/EA2/EA237.htm", "5.png", "E8751", "0", "", "Class0","{69D6110B-9228-4396-BE2C-E00D82D20287}");
+tocTab[tocTab.length] = new Array("0.2.3.2:5", "", "«gegevensgroep» Activiteiten-Onderneming", "EARoot/EA2/EA3/EA2/EA238.htm", "5.png", "E8748", "0", "", "Class0","{1A4635A5-64F4-4750-9E78-9495BA3289ED}");
+tocTab[tocTab.length] = new Array("0.2.3.2:6", "", "«gegevensgroep» Activiteiten-CommerciëleVestiging", "EARoot/EA2/EA3/EA2/EA239.htm", "5.png", "E8753", "0", "", "Class0","{9BDDCDDB-4262-4cb4-B7B1-7D3D345327CA}");
+tocTab[tocTab.length] = new Array("0.2.3.2:7", "", "«gegevensgroep» Activiteiten-NietCommerciëleVestiging", "EARoot/EA2/EA3/EA2/EA240.htm", "5.png", "E8750", "0", "", "Class0","{553EC759-9FD4-4d7f-9AA6-532BD51BA157}");
+tocTab[tocTab.length] = new Array("0.2.3.2:8", "", "«gegevensgroep» Activiteiten-Rechtspersoon", "EARoot/EA2/EA3/EA2/EA241.htm", "5.png", "E8752", "0", "", "Class0","{911AD329-638F-4e8c-AC67-33BE8D2456AA}");

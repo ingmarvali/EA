@@ -1,0 +1,783 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Persoon::Persoon</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Persoon", " : "))</script> Persoon : Public abstract &lt;&lt;objecttype&gt;&gt; Class</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">20-12-2005 16:33:39</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">14-10-2020 13:57:34</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Stefan Staal</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">3.0.4e</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Approved</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{5A61477B-B208-4feb-81F6-0E2812ECC7E2}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="./EA2/EA110.htm">NatuurlijkPersoon</a>, <a href="./EA3/EA116.htm">NietNatuurlijkPersoon</a>, <a href="./EA3/EA122.htm">Buitenlandse rechtspersoon of vennootschap</a>, Eigenaar, Functionaris, <a href="../../EA13.htm">HR-Model Overzicht (volledig)</a>, <a href="EA87.htm">Persoon</a>, <a href="./EA1/EA105.htm">NaamPersoon</a>, <a href="../EA2/EA144.htm">Maatschappelijke Activiteit</a>, <a href="../EA4/EA167.htm">FunctieVervulling</a>, <a href="../EA5/EA181.htm">Deponeringen</a>, Registratie, Eigenaar, Eigenaar, Eigenaar, Eigenaar, Maatschappelijke Activiteit / Onderneming, Eigenaar, Vestiging gevolmachtigden, Gemachtigde, Aansprakelijke, Bestuursfunctie, Publiekrechtelijke functionaris, Overige functionaris, Functionaris bijzondere rechtstoestand, Persoon als functionaris, Jaarstukken, Aanprakelijkheden, Overige deponerigen, Beperking in rechtshandeling, Bijzondere rechtstoestand, Eenmanszaak, Buitenlandse vennootschap, Rechtspersoon in oprichting, Eenmanszaak met meerdere eigenaren, Samenwerkingsverband, Rechtspersoon, Persoon als toetredende functionaris, Rechtspersoon BV,  NV,  OWM,  Coöp,  SCE,  SE,  EESV, Rechtspersoon Stichting,  Vereniging,  Vve,  overig privaatrechtelijke rechtspersoon,  kerkgenootschap,  publiekrechtelijke rechtspersoon, Buitenlandse rechtspersoon of vennootschap, Eigenaar eenmanszaak, Rechtspersoon, Rechtspersoon i.o., Samenwerkingsverband, Natuurlijk Persoon als eigenaar, Natuurlijk Persoon als functionaris, MaatschappelijkeActiviteit waar een functie wordt bekleed, Aansprakelijke met handlichting, Natuurlijk Persoon als functionaris, Natuurlijk Persoon als eigenaar met handlichting, Gewijzigde natuurlijk persoon als functionaris, Persoon als eigenaar, Gewijzigde natuurlijk persoon als vertegenwoordiger bestuurder, Gewijzigde natuurlijk persoon als eigenaar, Eenmanszaak, Bestuurder bij rechtspersoon, Persoon, Verhuizende rechtspersoon, Persoon als functionaris, Rechtspersoon, Persoon als functionaris, Rechtspersoon, Ingeschreven vereniging, Niet ingeschreven vereniging, Rechtspersoon, Rechtspersoon, Persoon als toetredende commissaris, Persoon als gewijzigde/uittredende functionaris, Persoon als toetredende bestuurder, NietCommerciele Vestiging, Rechtspersoon, B.V. of N.V., Persoon als functionaris, Rechtspersoon, Persoon als toetredende functionaris, Rechtspersoon, Eigenaar, Rechtspersoon, Rechtspersoon, Rechtspersoon, Samenwerkingsverband, Commanditaire Vennoten, Samenwerkingsverband, Dochter-onderneming, Blijvende buitenlandse NNP, Uitgeschreven buitenlandse NNP, Persoon als functionaris, Moeder-onderneming, Instemming & Ontheffing, MaatschappelijkeActiviteit waarbij uitgeschreven buitenlandse NNP een functie vervult, Buitenlandse NNP (uitgeschreven), Buitenlandse NNP met gewijzigd bezoekadres, Buitenlandse NNP als functionaris, MaatschappelijkeActiviteit waarbij gewijzigde buitenlandse NNP een functie vervult, Buitenlandse NNP als eigenaar met gewijzigd bezoekadres, Gewijzigde buitenlandse vennootschap, Persoon als eigenaar, Persoon, Rechtspersoon zonder vestiging, Eigenaar, Persoon waar uitgetreden wordt, Persoon als uittredende functionaris, Commerciele Bedrijfsactiviteiten, MaatschappelijkeActiviteit, Rechtspersoon, Persoon als eigenaar, Niet Natuurlijk Persoon, Persoon als eigenaar, Persoon als eigenaar, Persoon als eigenaar, Persoon met gewijzigd postadres, Vestiging met gewijzigd postadres, Persoon als eigenaar, Vestiging, Activiteiten, Onderneming met handelsnamen, Persoon als toetredend functionars, Persoon als eigenaar, Persoon als eigenaar, Persoon als uittredend functionaris, Niet Natuurlijk Persoon, Persoon als toetredende Functionaris, Persoon als uittredende Functionaris, Persoon als uittredende functionaris, Persoon als eigenaar (NNP), Niet Natuurlijk Persoon, Toetredende Functionaris, Uittredende Functionaris, Niet Natuurlijk Persoon, Persoon als functionaris, Persoon als eigenaar, Persoon als toetredend functionaris, Persoon als eigenaar, Persoon als zittende functionaris, Persoon als eigenaar, Persoon als uittredend functionaris, Persoon als toetredend functionaris, Persoon als eigenaar, Persoon als eigenaar, Persoon als uittredende functionaris, Rechtspersoon, Persoon als toetredende functionaris, Rechtspersoon, Persoon als uittredende functionaris, Persoon als eigenaar, Functievervulling met gewijzigde bevoegdheid, Persoon als functionaris, Persoon als eigenaar, Persoon als functionaris, Persoon als functionaris, Persoon als eigenaar, Persoon als functionaris, Persoon als eigenaar, Persoon als functionaris, Persoon als eigenaar, Natuurlijk persoon als eigenaar, Naam persoon als functionaris, Rechtspersoon, Vestiging, Natuurlijk persoon als functionaris, Persoon waarbij de functie wordt vervuld, Rechtspersoon, Persoon als eigenaar, Buitenlandse rechtspersoon of vennootschap, Persoon als functionaris, Persoon, Persoon als toetredende bewaarder, Rechtspersoon, Persoon als uittredende functionaris, Persoon als toetredende functionaris, Samenwerkingsverband, Persoon als uittredende functionaris, Persoon waarbij wordt uitgetreden, Rechtspersoon, Persoon als toetredende functionaris, Persoon als uittredende functionaris, Herleefde functievervulling, Rechtspersoon, Persoon als uittredende functionaris, Persoon als toetredende functionaris, Rechtspersoon, Buitenlandse rechtspersoon of vennootschap, Persoon als toetredende functionaris, Ontbonden rechtspersoon, Persoon als toetredende functionaris, Persoon als uittredende functionaris, Ontbonden samenwerkingsverband, Persoon als uittredende functionaris, Persoon als toetredende functionaris, Persoon als eigenaar, Eigenaar, Persoon als  functionaris, Persoon als eigenaar, Oude eigenaar, Persoon als  functionaris, Herstelde rechtspersoon, Persoon als functionaris, Persoon als uittredende bewaarder van boeken en bescheiden, Persoon als uittredende vereffenaar, Rechtspersoon, Persoon als vereffenaar, Persoon als functionaris, Rechtspersoon, Uitgeschreven rechtspersoon, Uitgeschreven samenwerkingsverband, Persoon als uittredende functionaris, Rechtspersoon, Rechtspersoon, Nieuwe eigenaar, Oude eigenaar, Persoon als functionaris, Nieuwe eigenaar, Oude eigenaar, Persoon als functionaris, Oude eigenaar, Persoon als uittredende functionaris, Persoon als toetredende functionaris, Persoon als gemachtigde van gewijzigdde volmacht, Nieuwe eigenaar, Oude eigenaar, Nieuwe eigenaar, Persoon als toetredende functionaris, Persoon als gemachtigde van gewijzigdde volmacht, Persoon als uittredende functionaris, Persoon (Uittredend), Omgezette rechtspersoon, Persoon (Toetredend), Dochtermaatschappij, Moedermaatschappij, Dochtermaatschappij, Groepsjaarrekeninghouder, Dochtermaatschappij, Moedermaatschappij, Dochtermaatschappij, Moedermaatschappij, ToekennendeRechtspersoon, VerdwijnendeRechtspersoon, VerkrijgendeRechtspersoon, VerkrijgendeRechtspersoon (op te richten), SplitsendeRechtspersoon, ToekennendeRechtspersoon, VerkrijgendeRechtspersoon (Bestaand), VerkrijgendeRechtspersoon (Nieuw op te richten), Verdwijnende rechtspersoon, Verkrijgende rechtspersoon, Verkrijgende rechtspersoon (op te richten), Toekennende rechtspersoon, Vernietigen fusie voorstel, Vervallen fusie voorstel, Verdwijnende rechtspersoon, Verkrijgende rechtspersoon, Verkrijgende rechtspersoon (op te richten), Toekennende rechtspersoon, Splitsende rechtspersoon, Verkrijgende rechtspersoon (bestaand), Verkrijgende rechtspersoon (nieuw op te richten), Toekennende rechtspersoon, Vernietigen splitsingsvoorstel, Vervallen splitsingsvoorstel, Splitsende rechtspersoon, Verkrijgende rechtspersoon (bestaand), Verkrijgende rechtspersoon (nieuw op te richten), Toekennende rechtspersoon, ToekennendeRechtspersoon, VerdwijnendeRechtspersoon, VerkrijgendeRechtspersoon, VerkrijgendeRechtspersoon (op te richten), SplitsendeRechtspersoon, ToekennendeRechtspersoon, VerkrijgendeRechtspersoon (Bestaand), VerkrijgendeRechtspersoon (Nieuw op te richten), Rechtspersoon, Rechtspersoon, Rechtspersoon, Rechtspersoon, Groepsjaarrekeninghouder, Rechtspersoon, Niet Natuurlijk Persoon, Niet Natuurlijk Persoon, Niet Natuurlijk Persoon, Verdwijnende rechtspersoon, Verkrijgende bestaande rechtspersoon, Verkrijgende nieuwe rechtspersoon, Persoon als uittredende functionaris, Persoon waar uitgetreden wordt, Persoon als toetredende Functionaris, Afsplitsende rechtspersoon, Verkrijgende bestaande rechtspersoon, Verkrijgende nieuwe rechtspersoon, Splitsende rechtspersoon, Persoon als uittredende functionaris, Persoon als toetredende Functionaris, Persoon waar uitgetreden wordt, Natuurlijke Persoon, Persoon als functionaris bijzondere rechtstoestand, Vervult functie bij Persoon, Niet Natuurlijke Persoon, Eenmanszaak, Natuurlijke Persoon, Persoon als functionaris bijzondere rechtstoestand, Vervult functie bij Persoon, Eenmanszaak, Niet Natuurlijke Persoon, Natuurlijke Persoon, Persoon als functionaris bijzondere rechtstoestand (voorgaande), Vervult functie bij Persoon, Persoon als functionaris bijzondere rechtstoestand (uittredende), Niet Natuurlijke Persoon, Eenmanszaak, Natuurlijke Persoon, Persoon als functionaris bijzondere rechtstoestand (toegewezen), Vervult functie bij Persoon, Persoon als functionaris bijzondere rechtstoestand (uittredende), Niet Natuurlijke Persoon, Eenmanszaak, Persoon, Persoon als functionaris bijzondere rechtstoestand, Persoon als eigenaar, Persoon, Persoon als functionaris bijzondere rechtstoestand (toegewezen), Persoon als eigenaar, Persoon als functionaris bijzondere rechtstoestand (uittredende), Persoon, Persoon als eigenaar, Persoon als functionaris bijzondere rechtstoestand, Persoon, Persoon als eigenaar, Persoon, Persoon als functionaris bijzondere rechtstoestand (hersteld), Persoon als eigenaar, Persoon als functionaris bijzondere rechtstoestand (uittredend), Niet Natuurlijk Persoon met beëindigde buitenlandse rechtstoestand, Niet Natuurlijk Persoon met buitenlandse rechtstoestand, Commanditaire vennootschap, Persoon als eigenaar, Persoon als eigenaar, Functie met gecorrigeerde bevoegdheid, Persoon als functionaris, Persoon met gecorrigeerd bezoekadres, Vestiging met gecorrigeerd bezoekadres, Commanditaire vennootschap, Persoon als eigenaar, Gecorrigeerde inschrijving, Persoon als uittredende functionaris, Samenwerkingsverband, Niet Natuurlijk Persoon, Moedermaatschappij, Groepjaarsrekeninghouder, Persoon als eigenaar, Persoon als functionaris, Gecorrigeerde buitenlandse vennootschap, Persoon als eigenaar, Niet Natuurlijk Persoon, Persoon als eigenaar, Persoon als functionaris, Rechtspersoon, Gecorrigeerde buitenlandse vennootschap, Persoon als eigenaar, Rechtspersoon met gecorrigeerd kapitaal, Persoon als eigenaar, Persoon met gecorrigeerd postadres, Vestiging met gecorrigeerd postadres, Niet Natuurlijk Persoon, Rechtspersoon of buitenlandse vennootschap, Splitsende rechtspersoon, Verkrijgende rechtspersoon (bestaand), Verkrijgende rechtspersoon (nieuw op te richten), Toekennende rechtspersoon, Verdwijnende rechtspersoon, Persoon als eigenaar, Persoon als eigenaar, Herstelde persoon als functionaris, Persoon als eigenaar, Persoon als functionaris, Rechtspersoon i.o., Persoon als functionaris, Persoon als functionaris, Persoon als eigenaar, Niet natuurlijk persoon, Persoon als functionaris, Niet Natuurlijk Persoon, Niet Natuurlijk Persoon, Persoon als eigenaar, Persoon als functionaris, Rechtspersoon, Herstelde samenwerkingsverband, Persoon als functionaris, Persoon als eigenaar (overdrager), Persoon als functionaris, Persoon als eigenaar (overnemer), Herstelde eigenaar eenmanszaak, Persoon als functionaris, Rechtspersoon, Beëindigde groepsjaarrekeninghouder, Moedermaatschappij, Rechtspersoon i.o., Herstelde rechtspersoon, Persoon als functionaris, Herstelde functionaris, Onterecht ingeschreven Rechtspersoon, Persoon als functionaris, Persoon als eigenaar, Persoon als eigenaar (overnemer), Persoon als functionaris, Persoon als eigenaar (overdrager), MaatschappelijkeActiviteit, Persoon, Persoon als toetredende functionaris, Eigenaar, Vestigingen, Functionarissen, Deponeringen, Adresgegevens, Bijzondere rechtstoestand, Communicatiegegevens, Functionarissen Bestuursfunctie, Persoon als Functionaris, Functionarissen Gemachtigde, Functionarissen Aansprakelijke, Functionarissen Publiekrechtelijke functionaris, Functionarissen Overige functionaris, Functionarissen Bijzondere rechtstoestand, Eigenaar Eenmanszaak, Ultimate Beneficial Owner, Naamgeving, Persoon als Functionaris - zonder NaamPersoon, Beschikbare Jaarrekeningen (EUFI), <a href="../../EA3/EA4/EA247.htm">Bijzondere rechtstoestand</a>, <a href="../../EA3/EA5/EA256.htm">BuitenlandseRechtstoestand</a>, Eigenaar, Functionaris, UBO Afschrift Vennootschap, Fusie & Splitsing, <a href="../../EA1/EA31.htm">Gegevensset Buitenlandse Vennootschap</a>, <a href="../../EA1/EA33.htm">Gegevensset Eenmanszaak</a>, <a href="../../EA1/EA35.htm">Gegevensset Eenmanszaak met meerdere eigenaren</a>, <a href="../../EA1/EA37.htm">Gegevensset Rechtspersoon</a>, <a href="../../EA1/EA39.htm">Gegevensset Rechtspersoon i.o.</a>, <a href="../../EA1/EA41.htm">Gegevensset Samenwerkingsverband</a>, Deponeringen inschrijving, Eigenaar, Functionaris, Moedermaatschappij, Groepsjaarrekeninghouder, Fusie of Splitsing, <a href="../../EA3/EA20/EA344.htm">Volmacht</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">&lt;b&gt;Definitie (stelselcatalogus):&lt;/b&gt;&lt;br/&gt;Een {Persoon} is een ieder die rechten en plichten kan hebben.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Toelichting:&lt;/b&gt;&lt;br/&gt;{Persoon} wordt gebruikt als overkoepelend begrip (een verzamelnaam voor {NatuurlijkPersoon}, {NietNatuurlijkPersoon} en {NaamPersoon}) om er over te kunnen communiceren.&lt;br/&gt;Iedere in het handelsregister voorkomende {Persoon} heeft ofwel een {Eigenaarschap} en/ of minstens één {Functievervulling} waarmee de rol van de {Persoon} is vastgelegd.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Wetgeving:&lt;/b&gt;&lt;br/&gt;Artikel 9 sub d Hrw&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Populatiebeschrijving:&lt;/b&gt;&lt;br/&gt;In het handelsregister worden elke {Persoon} vastgelegd die een rol speelt bij een inschrijfplichtige {Onderneming} of {Rechtspersoon}, dan wel zelf een inschrijfplichtige {Persoon} is. Een {Persoon} kan ook een buitenlandse {Persoon} zijn.&lt;br/&gt;&lt;br/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('Attributes');" id="AttributesTitle">Attributes</li>
+			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
+			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
+		</ul>
+<div class="ItemBody" id="AttributesTable">
+	<table border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="100%" class="TableHeading">Attribute</td>
+		</tr>
+						<tr>
+				<td width="100%" class="TableRow">
+					<i>Private <a href="../../EA4/EA2/EA1/EA452.htm">Tekst500</a></i><br /><strong>&nbsp;&nbsp;persoonRechtsvorm</strong>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">										
+					<a href="#" onclick="parent.toggleData('DetailsImageAttributes0')" style="text-decoration: none; color: #000000;"><img src="../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes0" border="0" />Details:</a>
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+					
+						<tr id="DetailsImageAttributes0_00" style="display: none;">
+							<td width="75"><i>Alias:</i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes0_01" style="display: none;">
+							<td width="75"><i>Initial:</i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes0_02" style="display: none;">
+							<td width="75"><i>Stereotype: </i></td>
+							<td>&lt;&lt;afleiding&gt;&gt;</td>
+						</tr>
+						<tr id="DetailsImageAttributes0_03" style="display: none;">
+							<td width="75"><i>Ordered: </i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes0_04" style="display: none;">
+							<td width="75"><i>Range: </i></td>
+							<td>Range:0 to 1</td>
+						</tr>
+						<tr id="DetailsImageAttributes0_05" style="display: none;">
+							<td width="75"><i>Transient: </i></td>
+							<td>False</td>
+						</tr>
+						<tr id="DetailsImageAttributes0_06" style="display: none;">
+							<td width="75"><i>Derived: </i></td>
+							<td>True</td>
+						</tr>
+							<tr id="DetailsImageAttributes0_07" style="display: none;">
+							<td width="75"><i>IsID: </i></td>
+						<td>False</td>
+						</tr>
+					</table>
+					
+					
+						<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Rechtsvorm van de Persoon.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Afleidingsregels:&lt;/b&gt;&lt;br/&gt;INDIEN een NP = &#39;Eigenaar&#39; is van een MA DAN &quot;Eenmanszaak&quot;&lt;br/&gt;INDIEN een NNP = ´Eenmanszaak met meerdere eigenaren´ DAN &#39;Eenmanszaak met meerdere eigenaren&#39;.&lt;br/&gt;INDIEN een NNP = RechtpersoonInOprichting DAN &#39;Rechtspersoon in oprichting&#39;.&lt;br/&gt;INDIEN een NNP = Samenwerkingsverband DAN Samenwerkingsverband.rechtsvorm&lt;br/&gt;INDIEN een NNP = Rechtspersoon DAN Rechtspersoon.rechtsvorm&lt;br/&gt;INDIEN een NNP = Rechtspersoon EN Rechtspersoon.nieuwGemeldeRechtsvorm is gevuld DAN Rechtspersoon.nieuwGemeldeRechtsvorm&lt;br/&gt;INDIEN een NNP = BuitenlandseVennootschap DAN BuitenlandseVennootschap.rechtsvormcategorie&lt;br/&gt;&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						
+				</td>
+			</tr>			<tr>
+				<td width="100%" class="TableRow">
+					<i>Private <a href="../../EA4/EA2/EA1/EA452.htm">Tekst500</a></i><br /><strong>&nbsp;&nbsp;uitgebreideRechtsvorm</strong>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">										
+					<a href="#" onclick="parent.toggleData('DetailsImageAttributes1')" style="text-decoration: none; color: #000000;"><img src="../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes1" border="0" />Details:</a>
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+					
+						<tr id="DetailsImageAttributes1_00" style="display: none;">
+							<td width="75"><i>Alias:</i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes1_01" style="display: none;">
+							<td width="75"><i>Initial:</i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes1_02" style="display: none;">
+							<td width="75"><i>Stereotype: </i></td>
+							<td>&lt;&lt;afleiding&gt;&gt;</td>
+						</tr>
+						<tr id="DetailsImageAttributes1_03" style="display: none;">
+							<td width="75"><i>Ordered: </i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes1_04" style="display: none;">
+							<td width="75"><i>Range: </i></td>
+							<td>Range:0 to 1</td>
+						</tr>
+						<tr id="DetailsImageAttributes1_05" style="display: none;">
+							<td width="75"><i>Transient: </i></td>
+							<td>False</td>
+						</tr>
+						<tr id="DetailsImageAttributes1_06" style="display: none;">
+							<td width="75"><i>Derived: </i></td>
+							<td>True</td>
+						</tr>
+							<tr id="DetailsImageAttributes1_07" style="display: none;">
+							<td width="75"><i>IsID: </i></td>
+						<td>False</td>
+						</tr>
+					</table>
+					
+					
+						<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Rechtsvorm (conform BW) van inschrijving aangevuld met informatie over structuur, rechtsbevoegdheid etc.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Afleidingsregels&lt;/b&gt;:&lt;br/&gt;startwaarde uitgebreideRechtsvorm = persoonRechtsvorm&lt;br/&gt;&lt;br/&gt;Indien type NNP = Rechtspersoon&lt;br/&gt;en Rechtspersoon.rechtsvorm = &#8216;BV&#8217;, &#8216;NV&#8217;, &#8216;SE&#8217; of &#8216;SCE&#8217; en Rechtspersoon.bijzondereStructuur = Ja&lt;br/&gt;Dan uitgebreideRechtsvorm = uitgebreideRechtsvorm + &quot;(blijkens statuten structuurvennootschap)&quot;&lt;br/&gt;&lt;br/&gt;Indien type NNP = Rechtspersoon&lt;br/&gt;en Rechtspersoon.rechtsvorm = &#8216;NV&#8217; en Rechtspersoon.beleggingsMijMetVeranderlijkKapitaal = Ja&lt;br/&gt;Dan uitgebreideRechtsvorm = uitgebreideRechtsvorm + &quot;(beleggingsmaatschappij met veranderlijk kapitaal)&quot;&lt;br/&gt;&lt;br/&gt;Indien type NNP = Rechtspersoon&lt;br/&gt;en Rechtspersoon.rechtsvorm = &#8216;NV&#8217; en Rechtspersoon.beleggingsMijMetVeranderlijkKapitaal = Ja en Rechtspersoon.bijzondereStructuur = Ja&lt;br/&gt;Dan uitgebreideRechtsvorm = uitgebreideRechtsvorm + &quot;(beleggingsmaatschappij met veranderlijk kapitaal blijkens statuten structuurvennootschap)&quot;&lt;br/&gt;&lt;br/&gt;Indien type NNP = Rechtspersoon&lt;br/&gt;en Rechtspersoon.rechtsvorm = &#8216;Co&#246;peratie&#8217; en Rechtspersoon.bijzondereStructuur = Ja&lt;br/&gt;Dan uitgebreideRechtsvorm = uitgebreideRechtsvorm + &quot;(blijkens statuten structuurco&#246;peratie)&quot;&lt;br/&gt;&lt;br/&gt;Indien type NNP = Rechtspersoon&lt;br/&gt;en Rechtspersoon.rechtsvorm = &#8216;OWM&#8217; en Rechtspersoon.bijzondereStructuur = Ja&lt;br/&gt;Dan uitgebreideRechtsvorm = uitgebreideRechtsvorm + &quot;(blijkens statuten onderlinge)&quot;&lt;br/&gt;&lt;br/&gt;Indien type NNP = Rechtspersoon&lt;br/&gt;en Rechtspersoon.rechtsvorm = &#8216;Vereniging&#8217; en Rechtspersoon.bevoegdheid = Beperkt&lt;br/&gt;Dan uitgebreideRechtsvorm = uitgebreideRechtsvorm + &quot;(met beperkte rechtsbevoegdheid)&quot;&lt;br/&gt;&lt;br/&gt;Indien type NNP = Rechtspersoon&lt;br/&gt;en Rechtspersoon.rechtsvorm = &#8216;Vereniging&#8217; en Rechtspersoon.bevoegdheid = Volledig&lt;br/&gt;Dan uitgebreideRechtsvorm = Persoon.rechtsvorm + &quot;(met volledige rechtsbevoegdheid)&quot;&lt;br/&gt;&lt;br/&gt;Indien type NNP = Rechtspersoon&lt;br/&gt;Indien Rechtspersoon.rechtsvorm = &#8216;Vereniging&#8217; en Rechtspersoon.koninklijkErkend = Ja&lt;br/&gt;Dan uitgebreideRechtsvorm = uitgebreideRechtsvorm + &quot;(Koninklijke erkenning)&quot;&lt;br/&gt;&lt;br/&gt;Indien type NNP = Rechtspersoon&lt;br/&gt;en Rechtspersoon.rechtsvorm = &#8216;PubliekrechtelijkeRechtsvorm&#39;&lt;br/&gt;Dan uitgebreideRechtsvorm = uitgebreideRechtsvorm + &quot;: &quot; + &quot;publiekrechtelijkeRechtsvorm&quot;&lt;br/&gt;&lt;br/&gt;Indien type NNP = Rechtspersoon&lt;br/&gt;en Rechtspersoon.rechtsvorm = &#8216;overigePrivaatrechtelijkeRechtsvorm&#39;&lt;br/&gt;Dan uitgebreideRechtsvorm = uitgebreideRechtsvorm &quot;: &quot; + &quot;overigePrivaatrechtelijkeRechtsvorm&quot;&lt;br/&gt;&lt;br/&gt;Indien type NNP = BuitenlandseVennootschap&lt;br/&gt;Dan startwaarde uitgebreideRechtsvorm = leeg&lt;br/&gt;uitgebreideRechtsvorm = BuitenlandsevennootschapGegevens.omschrijvingRechtsvorm +&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;(#lt;BuitenlandsevennootschapGegevens.land van vestiging#gt;)&quot;&lt;br/&gt;&lt;br/&gt;Indien type NNP = BuitenlandseVennootschap&lt;br/&gt;en BuitenlandsevennootschapGegevens.datumFormeelBuitenlandsSinds = &#39;gevuld&#39;&lt;br/&gt;Dan startwaarde uitgebreideRechtsvorm = leeg&lt;br/&gt;uitgebreideRechtsvorm = BuitenlandsevennootschapGegevens.omschrijvingRechtsvorm +&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;(#lt;BuitenlandsevennootschapGegevens.land van vestiging#gt;)&quot;&quot;;volgens opgave een formeel buitenlandse vennootschap&quot;&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						
+				</td>
+			</tr>			<tr>
+				<td width="100%" class="TableRow">
+					<i>Private <a href="../../EA4/EA2/EA1/EA452.htm">Tekst500</a></i><br /><strong>&nbsp;&nbsp;volledigeNaam</strong>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">										
+					<a href="#" onclick="parent.toggleData('DetailsImageAttributes2')" style="text-decoration: none; color: #000000;"><img src="../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes2" border="0" />Details:</a>
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+					
+						<tr id="DetailsImageAttributes2_00" style="display: none;">
+							<td width="75"><i>Alias:</i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes2_01" style="display: none;">
+							<td width="75"><i>Initial:</i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes2_02" style="display: none;">
+							<td width="75"><i>Stereotype: </i></td>
+							<td>&lt;&lt;afleiding&gt;&gt;</td>
+						</tr>
+						<tr id="DetailsImageAttributes2_03" style="display: none;">
+							<td width="75"><i>Ordered: </i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes2_04" style="display: none;">
+							<td width="75"><i>Range: </i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes2_05" style="display: none;">
+							<td width="75"><i>Transient: </i></td>
+							<td>False</td>
+						</tr>
+						<tr id="DetailsImageAttributes2_06" style="display: none;">
+							<td width="75"><i>Derived: </i></td>
+							<td>True</td>
+						</tr>
+							<tr id="DetailsImageAttributes2_07" style="display: none;">
+							<td width="75"><i>IsID: </i></td>
+						<td>False</td>
+						</tr>
+					</table>
+					
+					
+						<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Volledige naam van de Persoon.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Afleidingsregels:&lt;/b&gt;&lt;br/&gt;INDIEN Persoon = NatuurlijkPersoon DAN &lt;br/&gt;Adellijke titel (wordt niet als los veld geleverd) + &quot; &quot; + &lt;br/&gt;NatuurlijkPersoon.voornamen + &quot; &quot; + NatuurlijkPersoon.voorvoegsel + &quot; &#8221; + NatuurlijkPersoon.achternaam&#8221;&lt;br/&gt;&lt;br/&gt;INDIEN Persoon =&#160;&#160;NietNatuurlijkPersoon (incl. buitenlandse NNP) DAN NietNatuurlijkPersoon.Naamgeving.naam&lt;br/&gt;&lt;br/&gt;INDIEN Persoon = NaamPersoon DAN NaamPersoon.naam&lt;br/&gt;&lt;br/&gt;INDIEN Persoon = RechtspersoonInOprichting DAN MaatschappelijkeActiviteit./naam&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						
+				</td>
+			</tr>
+	</table>
+</div>
+		<div class="ItemBody" id="AssociationsToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA4/EA172.htm">«objecttype» Functievervulling</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3" onclick="parent.toggleDiv('detailsDIVLink3','DetailsImageLink3')" />Details:
+							<div id="detailsDIVLink3" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						Functionaris<br />
+						UMLDiagram &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink4" onclick="parent.toggleDiv('detailsDIVLink4','DetailsImageLink4')" />Details:
+							<div id="detailsDIVLink4" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA4/EA172.htm">«objecttype» Functievervulling</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink5" onclick="parent.toggleDiv('detailsDIVLink5','DetailsImageLink5')" />Details:
+							<div id="detailsDIVLink5" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						Klant<br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink6" onclick="parent.toggleDiv('detailsDIVLink6','DetailsImageLink6')" />Details:
+							<div id="detailsDIVLink6" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA101.htm">«objecttype» Persoon</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> isVerenigdMet<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> isVerenigdNaar<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink7" onclick="parent.toggleDiv('detailsDIVLink7','DetailsImageLink7')" />Details:
+							<div id="detailsDIVLink7" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA5/EA184.htm">Nederlegging</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink8" onclick="parent.toggleDiv('detailsDIVLink8','DetailsImageLink8')" />Details:
+							<div id="detailsDIVLink8" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA3/EA4/EA252.htm">«gegevensgroep» BijzondereRechtstoestand</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink9" onclick="parent.toggleDiv('detailsDIVLink9','DetailsImageLink9')" />Details:
+							<div id="detailsDIVLink9" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA3/EA18/EA340.htm">«gegevensgroep» BeperkingInRechtshandeling</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink10" onclick="parent.toggleDiv('detailsDIVLink10','DetailsImageLink10')" />Details:
+							<div id="detailsDIVLink10" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="AssociationsFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA2/EA153.htm">«objecttype» MaatschappelijkeActiviteit</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink11" onclick="parent.toggleDiv('detailsDIVLink11','DetailsImageLink11')" />Details:
+							<div id="detailsDIVLink11" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA3/EA13/EA322.htm">«afgeleid» Locatie-Persoon</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> bezoekadres<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink12" onclick="parent.toggleDiv('detailsDIVLink12','DetailsImageLink12')" />Details:
+							<div id="detailsDIVLink12" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA4/EA172.htm">«objecttype» Functievervulling</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink13" onclick="parent.toggleDiv('detailsDIVLink13','DetailsImageLink13')" />Details:
+							<div id="detailsDIVLink13" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA2/EA153.htm">«objecttype» MaatschappelijkeActiviteit</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink14" onclick="parent.toggleDiv('detailsDIVLink14','DetailsImageLink14')" />Details:
+							<div id="detailsDIVLink14" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA202.htm">«objecttype» Gebeurtenis</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink15" onclick="parent.toggleDiv('detailsDIVLink15','DetailsImageLink15')" />Details:
+							<div id="detailsDIVLink15" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA101.htm">«objecttype» Persoon</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> isVerenigdMet<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> isVerenigdNaar<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink16" onclick="parent.toggleDiv('detailsDIVLink16','DetailsImageLink16')" />Details:
+							<div id="detailsDIVLink16" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA3/EA13/EA322.htm">«afgeleid» Locatie-Persoon</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> postadres<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink17" onclick="parent.toggleDiv('detailsDIVLink17','DetailsImageLink17')" />Details:
+							<div id="detailsDIVLink17" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA4/EA172.htm">«objecttype» Functievervulling</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink18" onclick="parent.toggleDiv('detailsDIVLink18','DetailsImageLink18')" />Details:
+							<div id="detailsDIVLink18" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+<div class="ItemBody" id="TaggedValTable">
+	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="50%" class="TableHeading">Tag</td>
+			<td width="50%" class="TableHeading">Value</td>
+		</tr>
+					<tr>
+				<td width="50%" class="TableRow" valign="top">Afkorting</td>
+				<td width="50%" class="TableRow" valign="top">PRS</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario19" onclick="parent.toggleDiv('detailsDIVScenario19','DetailsImageScenario19')" />Details:
+						<div id="detailsDIVScenario19" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>
+	</table>
+</div>		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA3/EA1/EA230.htm">FormeleRegistratie</a></td>
+					<td width="10%" class="TableRow" valign="top">Class</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA3/EA13/EA322.htm">«afgeleid» Locatie-Persoon</a></td>
+					<td width="10%" class="TableRow" valign="top">Class</td>
+					<td width="10%" class="TableRow" valign="top">Strong</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA3/EA1/EA231.htm">MateriëleRegistratie</a></td>
+					<td width="10%" class="TableRow" valign="top">Class</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA2/EA153.htm">«objecttype» MaatschappelijkeActiviteit</a></td>
+					<td width="10%" class="TableRow" valign="top">Class</td>
+					<td width="10%" class="TableRow" valign="top">Class</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="./EA2/EA115.htm">«objecttype» NatuurlijkPersoon</a></td>
+					<td width="10%" class="TableRow" valign="top">Class</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top">Aandeelhouder-VerkrijgendeRP</td>
+					<td width="10%" class="TableRow" valign="top">Boundary</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="./EA1/EA109.htm">«objecttype» NaamPersoon</a></td>
+					<td width="10%" class="TableRow" valign="top">Class</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="./EA3/EA137.htm">«objecttype» NietNatuurlijkPersoon</a></td>
+					<td width="10%" class="TableRow" valign="top">Class</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA3/EA13/EA322.htm">«afgeleid» Locatie-Persoon</a></td>
+					<td width="10%" class="TableRow" valign="top">Class</td>
+					<td width="10%" class="TableRow" valign="top">Strong</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top">Functionaris-VerkrijgendeRP</td>
+					<td width="10%" class="TableRow" valign="top">Boundary</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.2.3.20:1", "", "Volmacht", "EARoot/EA2/EA3/EA20/EA344.htm", "175.png", "4355", "0", "", "Logical diagram0","{9F076761-33BB-43f0-B91D-F17CA2F286C7}");
+tocTab[tocTab.length] = new Array("0.2.3.20:2", "", "«gegevensgroep» Volmacht", "EARoot/EA2/EA3/EA20/EA350.htm", "5.png", "E8809", "0", "", "Class0","{B157023F-E9CA-409a-AD22-61B73EAC26B7}");
+tocTab[tocTab.length] = new Array("0.2.3.20:3", "", "«gegevensgroep» BeperkteVolmacht", "EARoot/EA2/EA3/EA20/EA351.htm", "5.png", "E8808", "0", "", "Class0","{A9A05947-BA29-48f2-B922-669ED277CFF7}");
+tocTab[tocTab.length] = new Array("0.2.3.20:4", "", "«gegevensgroep» BeperkingInHandeling", "EARoot/EA2/EA3/EA20/EA352.htm", "5.png", "E8806", "0", "", "Class0","{32768DCF-7B3D-4bc6-948C-717229CCAC27}");

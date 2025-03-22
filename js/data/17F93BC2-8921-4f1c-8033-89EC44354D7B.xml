@@ -1,0 +1,10 @@
+tocTab[tocTab.length] = new Array("0.2.4.2:1", "", "«type» DatumIncompleet", "EARoot/EA2/EA4/EA2/EA416.htm", "5.png", "E8863", "0", "", "Class0","{4E5D5052-B301-4428-9A88-E4B65C5DFA95}");
+tocTab[tocTab.length] = new Array("0.2.4.2:2", "", "«type» Decimaal_18_8", "EARoot/EA2/EA4/EA2/EA417.htm", "5.png", "E8862", "0", "", "Class0","{0C1E6C51-A513-435c-B166-9A56F6D4706D}");
+tocTab[tocTab.length] = new Array("0.2.4.2:3", "", "«type» Decimaal_24_4", "EARoot/EA2/EA4/EA2/EA418.htm", "5.png", "E17953", "0", "", "Class0","{86B7C8DE-9337-4c9e-BD92-CEA5B2E63E1C}");
+tocTab[tocTab.length] = new Array("0.2.4.2:4", "", "«type» Geld", "EARoot/EA2/EA4/EA2/EA419.htm", "5.png", "E8864", "0", "", "Class0","{67DF5978-5BCF-4061-BC9B-68AD89BC9BA7}");
+tocTab[tocTab.length] = new Array("0.2.4.2:5", "", "«type» Jaar", "EARoot/EA2/EA4/EA2/EA420.htm", "5.png", "E8865", "0", "", "Class0","{7FBDB857-5ADE-4084-A274-A9927C850D13}");
+tocTab[tocTab.length] = new Array("0.2.4.2:6", "", "«type» Letter", "EARoot/EA2/EA4/EA2/EA421.htm", "5.png", "E8868", "0", "", "Class0","{A8F87758-0015-4f00-97D0-08B628212D5F}");
+tocTab[tocTab.length] = new Array("0.2.4.2:7", "", "«type» Postcode", "EARoot/EA2/EA4/EA2/EA422.htm", "5.png", "E8867", "0", "", "Class0","{A4F45C8F-022A-49af-A780-2C2098DC9AF1}");
+tocTab[tocTab.length] = new Array("0.2.4.2:8", "", "«type» Tijdstip", "EARoot/EA2/EA4/EA2/EA423.htm", "5.png", "E8866", "0", "", "Class0","{9346A0C7-E5C6-47b7-8AC9-4C6927F8EF4D}");
+tocTab[tocTab.length] = new Array("0.2.4.2:9", "", "«type» Versie", "EARoot/EA2/EA4/EA2/EA424.htm", "5.png", "E8870", "0", "", "Class0","{D12578D3-4FB1-40a5-86B6-C94109615F60}");
+tocTab[tocTab.length] = new Array("0.2.4.2.1", "1", "Specifiek", "EARoot/EA2/EA4/EA2/EA1/EA425.htm", "4.png", "", "", "{1985D9D7-5006-4ecc-97E1-3C5702982C29}", "Package");

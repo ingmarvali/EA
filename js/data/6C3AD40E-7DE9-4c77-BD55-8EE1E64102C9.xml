@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.2.3.21:1", "", "«gegevensgroep» CommerciëleVestigingRelatie", "EARoot/EA2/EA3/EA21/EA354.htm", "5.png", "E8811", "0", "", "Class0","{3A098609-97E2-4ded-B02D-6276967876AC}");
+tocTab[tocTab.length] = new Array("0.2.3.21:2", "", "«gegevensgroep» NietCommerciëleVestigingRelatie", "EARoot/EA2/EA3/EA21/EA355.htm", "5.png", "E17972", "0", "", "Class0","{66D2A739-A0F4-40d4-B174-17D4B14309D2}");
+tocTab[tocTab.length] = new Array("0.2.3.21:3", "", "«gegevensgroep» OverdrachtVoortzettingOnderneming", "EARoot/EA2/EA3/EA21/EA356.htm", "5.png", "E8812", "0", "", "Class0","{57816BCA-8C98-4cda-9959-B2FEF220A9C9}");
+tocTab[tocTab.length] = new Array("0.2.3.21:4", "", "«gegevensgroep» OverdrachtVoortzettingVestiging", "EARoot/EA2/EA3/EA21/EA357.htm", "5.png", "E17974", "0", "", "Class0","{08CD8A87-283C-44ca-8A88-C8D12C4E1046}");

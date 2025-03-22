@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.2.3.4:1", "", "Bijzondere rechtstoestand", "EARoot/EA2/EA3/EA4/EA247.htm", "175.png", "4297", "0", "", "Logical diagram0","{4E6499B3-6931-4471-A765-03570E61FE3B}");
+tocTab[tocTab.length] = new Array("0.2.3.4:2", "", "«gegevensgroep» BijzondereRechtstoestand", "EARoot/EA2/EA3/EA4/EA252.htm", "5.png", "E16932", "0", "", "Class0","{1EBF4335-87BF-49a5-B253-028141A85228}");
+tocTab[tocTab.length] = new Array("0.2.3.4:3", "", "«gegevensgroep» Faillissement", "EARoot/EA2/EA3/EA4/EA253.htm", "5.png", "E16933", "0", "", "Class0","{C26B1DD0-C89C-46f0-96EE-51865CA2145E}");
+tocTab[tocTab.length] = new Array("0.2.3.4:4", "", "«gegevensgroep» Schuldsanering", "EARoot/EA2/EA3/EA4/EA254.htm", "5.png", "E16934", "0", "", "Class0","{D2BD2D1E-9B39-43bb-81FA-EB367779F6E3}");
+tocTab[tocTab.length] = new Array("0.2.3.4:5", "", "«gegevensgroep» SurseanceVanBetaling", "EARoot/EA2/EA3/EA4/EA255.htm", "5.png", "E16935", "0", "", "Class0","{329606B1-0FE8-4f5c-9D9F-ECA9AF5A0C4F}");

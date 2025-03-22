@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Identificerende gegevens</title>
+<link href="../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Identificerende gegevens", " : "))</script>  : Public   Package</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">30-4-2015 08:12:32</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">14-10-2020 13:57:33</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Stefan Staal</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">3.0.4e</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Approved</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{62C27529-4A4A-4367-B218-9F3E7771C8F0}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">Bij &lt;b&gt;elke&lt;/b&gt; gebeurtenis levert KVK de #lt;identificerende gegevens#gt; die op het &lt;i&gt;registratietijdstip&lt;/i&gt; van de gebeurtenis actueel zijn.&lt;br/&gt;#lt;identificerende gegevens#gt;&lt;br/&gt;a. KVK-nummer EN&lt;br/&gt;b. RSIN (Rechtspersoon of Samenwerkingsverband Identificatie Nummer) OF&lt;br/&gt;c. vestigingsnummer&lt;br/&gt;d. deponeringsidentificatie&lt;br/&gt;e. BSN (BurgerServiceNummer) OF&lt;br/&gt;f. voornamen (optioneel)&lt;br/&gt;&#160;&#160;&#160;voorvoegselGeslachtsnaam (optioneel)&lt;br/&gt;&#160;&#160;&#160;geslachtsnaam&lt;br/&gt;&#160;&#160;&#160;geboorteland&lt;br/&gt;&#160;&#160;&#160;geboorteplaats (optioneel)&lt;br/&gt;&#160;&#160;&#160;geboortedatum&lt;br/&gt;&lt;br/&gt;Dit betekent dat voor alle gebeurtenissen die betrekking hebben op de een &#8220;inschrijving&#8221;, zowel het persoonidentificatie (b, e en/of f) als het KVK-nummer (a), en (indien relevant voor de gebeurtenis) ook het vestigingsnummer (c), wordt geleverd.&#160;&#160;&lt;br/&gt;&lt;br/&gt;Voor gebeurtenissen die zich (tevens) afspelen buiten de context van de &#8220;inschrijving&#8221;, geldt dat de gebeurtenis de #lt;identificerende gegevens#gt; (KVK-nummer, RSIN, persoonidentificatie) van elke &#8220;inschrijving&#8221; bevat die een rol in de gebeurtenis speelt.&lt;br/&gt;Hieronder zijn een aantal voorbeelden gegeven van gebeurtenissen waarop dit van toepassing is:&lt;br/&gt;&lt;br/&gt;&lt;u&gt;Gebeurtenis Wijzigen Adresaanduiding:&lt;/u&gt;&lt;br/&gt;Het gewijzigde adres komt voor bij de inschrijving als:&lt;br/&gt;- bezoekadres OF&lt;br/&gt;- postadres OF&lt;br/&gt;- woonadres van een natuurlijk persoon (niet afkomstig van BRP!) die een van de volgende rollen vervult bij de inschrijving:&lt;br/&gt;-- eigenaar van een eenmanszaak (eventueel met meerdere eigenaren) OF&lt;br/&gt;-- vennoot in een vennootschap (onder firma of commanditaire) OF&lt;br/&gt;-- maat in een maatschap OF&lt;br/&gt;-- lid van een rederij OF&lt;br/&gt;-- bevoegd functionaris van een rechtspersoon in oprichting OF&lt;br/&gt;-- functionaris&lt;br/&gt;&lt;br/&gt;&lt;u&gt;Gebeurtenis Wijzigen Natuurlijk persoon:&lt;/u&gt;&lt;br/&gt;De natuurlijk persoon vervult een van de volgende rollen bij de inschrijving:&lt;br/&gt;- eigenaar van een eenmanszaak (eventueel met meerdere eigenaren) OF&lt;br/&gt;- vennoot in een vennootschap (onder firma of commanditaire) OF&lt;br/&gt;- maat in een maatschap OF&lt;br/&gt;- lid van een rederij OF&lt;br/&gt;- bevoegd functionaris van een rechtspersoon in oprichting OF&lt;br/&gt;- functionaris&lt;br/&gt;&lt;br/&gt;&lt;u&gt;Gebeurtenis Wijzigen Buitenlandse rechtspersoon of Vennootschap:&lt;/u&gt;&lt;br/&gt;De buitenlandse rechtspersoon of vennootschap vervult een van de volgende rollen bij de inschrijving:&lt;br/&gt;- vennoot in een vennootschap (onder firma of commanditaire) OF&lt;br/&gt;- maat in een maatschap OF&lt;br/&gt;- lid van een rederij OF&lt;br/&gt;- bevoegd functionaris van een rechtspersoon in oprichting OF&lt;br/&gt;- functionaris&lt;br/&gt;</div>
+
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

@@ -1,0 +1,13 @@
+tocTab[tocTab.length] = new Array("0.2.3.13:1", "", "Locatie", "EARoot/EA2/EA3/EA13/EA310.htm", "175.png", "1696", "0", "", "Logical diagram0","{4C1C9AF5-22DF-4c3f-89DC-6D008116D3FC}");
+tocTab[tocTab.length] = new Array("0.2.3.13:2", "", "«gegevensgroep» Adres", "EARoot/EA2/EA3/EA13/EA313.htm", "5.png", "E8786", "0", "", "Class0","{AE4A8E34-5C48-46d5-A681-327332381F78}");
+tocTab[tocTab.length] = new Array("0.2.3.13:3", "", "«gegevensgroep» BAGIdentificatie", "EARoot/EA2/EA3/EA13/EA314.htm", "5.png", "E16924", "0", "", "Class0","{5FAE3FC2-0427-496c-92B3-CA99A8C08B04}");
+tocTab[tocTab.length] = new Array("0.2.3.13:4", "", "«gegevensgroep» BinnenlandsAdres", "EARoot/EA2/EA3/EA13/EA315.htm", "5.png", "E8782", "0", "", "Class0","{728B6F9F-4180-4a1f-A4BB-FD3E8032E760}");
+tocTab[tocTab.length] = new Array("0.2.3.13:5", "", "«gegevensgroep» BuitenlandsAdres", "EARoot/EA2/EA3/EA13/EA316.htm", "5.png", "E8787", "0", "", "Class0","{BAD3F42A-EC7B-4775-A48E-7D119E9A6D6E}");
+tocTab[tocTab.length] = new Array("0.2.3.13:6", "", "«gegevensgroep» Locatie", "EARoot/EA2/EA3/EA13/EA317.htm", "5.png", "E8789", "0", "", "Class0","{DB3AB5AF-DA40-43c6-881F-95196BA26CFB}");
+tocTab[tocTab.length] = new Array("0.2.3.13:7", "", "«gegevensgroep» Locatie-BuitenlandseVennootschap", "EARoot/EA2/EA3/EA13/EA318.htm", "5.png", "E8788", "0", "", "Class0","{C5B7886D-A360-4649-96CE-513C08ECFEFF}");
+tocTab[tocTab.length] = new Array("0.2.3.13:8", "", "«afgeleid» Locatie-MaatschappelijkeActiviteit", "EARoot/EA2/EA3/EA13/EA319.htm", "5.png", "E8784", "0", "", "Class0","{AA1B800D-3811-45df-8383-16AF03735B7E}");
+tocTab[tocTab.length] = new Array("0.2.3.13:9", "", "«gegevensgroep» Locatie-NaamPersoon", "EARoot/EA2/EA3/EA13/EA320.htm", "5.png", "E8785", "0", "", "Class0","{AA698F7B-8EA3-48a6-B68E-3C9BAA251BC0}");
+tocTab[tocTab.length] = new Array("0.2.3.13:10", "", "«gegevensgroep» Locatie-NatuurlijkPersoon", "EARoot/EA2/EA3/EA13/EA321.htm", "5.png", "E8780", "0", "", "Class0","{17FDE200-A7C8-45f7-9BB5-29D9B8F4944C}");
+tocTab[tocTab.length] = new Array("0.2.3.13:11", "", "«afgeleid» Locatie-Persoon", "EARoot/EA2/EA3/EA13/EA322.htm", "5.png", "E8779", "0", "", "Class0","{10166EE7-C36F-4516-8655-D1E85B5ECEA6}");
+tocTab[tocTab.length] = new Array("0.2.3.13:12", "", "«gegevensgroep» Locatie-Rechtspersoon", "EARoot/EA2/EA3/EA13/EA323.htm", "5.png", "E8781", "0", "", "Class0","{3B3FBDC3-9FD3-4f97-8E2B-9F80FFB1EADF}");
+tocTab[tocTab.length] = new Array("0.2.3.13:13", "", "«gegevensgroep» Locatie-Vestiging", "EARoot/EA2/EA3/EA13/EA324.htm", "5.png", "E8783", "0", "", "Class0","{9DEBD0FF-EEA9-4929-8D58-75A90AA45849}");

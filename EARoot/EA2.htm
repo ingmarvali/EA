@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Inleiding</title>
+<link href="../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Inleiding", " : "))</script>  : Public   Package</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">14-4-2015 12:52:17</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">14-10-2020 13:57:32</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Stefan Staal</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">3.0.4e</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Approved</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{4C5EF25B-1127-4d39-BE99-06C7B51F9B5D}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">&lt;b&gt;Het handelsregister&lt;/b&gt;&lt;br/&gt;In het Handelsregister staan ondernemingen en rechtspersonen geregistreerd die deelnemen aan het economisch verkeer in Nederland. Zo heb je rechtszekerheid bij het zakendoen. In het Handelsregister zie je met wie je te maken hebt, wie mag tekenen namens het bedrijf en of er misschien sprake is van een faillissement. Dit geeft je zekerheid bij het zakendoen. In de Wet op de Kamer van Koophandel is vastgelegd dat het houden van het wettelijke Handelsregister &#233;&#233;n van de voornaamste taken van de Kamer van Koophandel is. &lt;br/&gt;&lt;br/&gt;Voor meer informatie: &lt;a href=&quot;file://file:///\win.k94.kvk.nl\Afdeling$\Projecten\Klantbehoud\04.%20Domein%20ontwerpen\Catalogi\01%20Gegevenscatalogus\Nieuwe%20teksten\http:\https:\www.kvk.nl\over-de-kvk\over-het-handelsregister\van-kracht-handelsregisterwet\&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;https://www.kvk.nl/over-de-kvk/over-het-handelsregister/van-kracht-handelsregisterwet/&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;&lt;b&gt;&lt;br/&gt;&lt;/b&gt;&lt;b&gt;De handelsregisterwet&lt;/b&gt;&lt;br/&gt;Het handelsregister wordt geregeld in de Handelsregisterwet.&lt;b&gt; &lt;/b&gt;Met de Handelsregisterwet 2007 wordt in het Nederlandse recht gedoeld op de Wet van 22 maart 2007, houdende regels omtrent een basisregister van ondernemingen en rechtspersonen, die op 1 juli 2008 in werking is getreden.&lt;br/&gt;&lt;br/&gt;Volgens de Handelsregisterwet moet de KVK deze gegevens in het Handelregister registreren, met de volgende doelen:&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Ondernemers en particulieren kunnen met het Handelsregister achterhalen met wie zij zaken doen, bijvoorbeeld (potenti&#235;le) klanten en leveranciers. Dit bevordert de rechtszekerheid in het handelsverkeer.&lt;/li&gt;&lt;li&gt;Algemene gegevens over de samenstelling van ondernemingen en rechtspersonen verstrekken.&lt;/li&gt;&lt;li&gt;Overheden kunnen gegevens over bedrijven en rechtspersonen uit het Handelsregister halen, en hoeven ze niet meer bij de ondernemer na te vragen. Dat vermindert de administratieve lasten.&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;&lt;b&gt;&lt;br/&gt;&lt;/b&gt;&lt;b&gt;Gegevenscatalogus&lt;/b&gt;&lt;br/&gt;In deze Gegevenscatalogus van het Handelsregister, wordt de inhoud van de registratie beschreven zoals deze zal gelden bij de wettelijk geregelde invoering in 2010. Als zodanig vormt de catalogus een weerslag van de regelgeving voor de registratie. Tenslotte wordt deze catalogus ook ge&#239;ntegreerd in de Nationale Catalogus van het stelsel van basisregistraties. Zo mogelijk is aansluiting gezocht bij een bestaande juridische definitie. Voor deze versie is gebruik gemaakt van wetgeving geldend in augustus 2010. Informatie over de &#8216;status in onderzoek&#8217; is nog niet in de catalogus opgenomen omdat deze functionaliteit nog niet in het Handelsregister is ge&#239;mplementeerd.&lt;br/&gt;&lt;br/&gt;In de Gegevenscatalogus van het Handelsregister staat beschreven welke gegevens uit het Handelsregister beschikbaar zijn. Het beschrijft de samenhang en de structuur van deze gegevens in detail. De KVK biedt deze gegevens aan in producten, bijv. HR Dataservice Inschrijving. Alle producten van de KVK worden opgebouwd uit en met de gegevens uit de Gegevenscatalogus.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Stelsel van basisregistraties &lt;/b&gt;&lt;br/&gt;Het Handelsregister is een van de 11 basisregistraties. Een basisregistratie is een door de overheid officieel aangewezen registratie met gegevens die door alle overheidsinstellingen verplicht worden gebruikt bij de uitvoering van publiekrechtelijke taken.&#160;&#160;&lt;br/&gt;&lt;br/&gt;Voor meer informatie:&lt;br/&gt;Overheidspartijen: &lt;a href=&quot;file://http://www.kvk.nl/aansluiten&quot;&gt;&lt;font color=&quot;#0563c1&quot;&gt;&lt;u&gt;www.kvk.nl/aansluiten&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;&lt;br/&gt;Marktpartijen: &lt;a href=&quot;file://https://www.kvk.nl/producten-bestellen/handelsregister-dataservice/&quot;&gt;&lt;font color=&quot;#0563c1&quot;&gt;&lt;u&gt;https://www.kvk.nl/producten-bestellen/handelsregister-dataservice/&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;&lt;b&gt;&lt;br/&gt;&lt;/b&gt;&lt;b&gt;Databankrecht&lt;/b&gt;&lt;br/&gt;Op het Handelsregister en de daarin vervatte data rusten databankrechten welke exclusief toekomen aan de KVK. De KVK behoudt zich uitdrukkelijk alle databankrechten voor. De databankrechten zijn ook opgenomen in de Gebruikersvoorwaarden die van toepassing zijn op HR Dataservice.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;&lt;br/&gt;&lt;/b&gt;&lt;b&gt;Openbare en niet openbare gegevens&lt;/b&gt;&lt;br/&gt;Het Handelsregister kent een onderscheid in openbare en niet-openbare gegevens. In diverse wetten is geregeld wie welke gegevens mag inzien. Daartoe kent Handelsregister Dataservice gegevensautorisatieniveaus:&lt;br/&gt;&lt;br/&gt;&lt;u&gt;1.	Openbare gegevens (autorisatie: markt)&lt;/u&gt;&lt;br/&gt;Afnemers met deze autorisatie ontvangen:&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;openbare Handelsregistergegevens&lt;/li&gt;&lt;/ul&gt;<br />In artikel 21 van de Handelsregisterwet staat welke gegevens door een ieder mogen worden ingezien.&lt;br/&gt;Voor meer informatie: &lt;a href=&quot;file://https://wetten.overheid.nl/BWBR0021777/2019-01-01%20l%20Hoofdstuk4&quot;&gt;&lt;font color=&quot;#0563c1&quot;&gt;&lt;u&gt;https://wetten.overheid.nl/BWBR0021777/2019-01-01#Hoofdstuk4&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;u&gt;2.	Openbare gegevens inclusief afgeschermde adressen (autorisatie: notarissen, advocaten en gerechtsdeurwaarders)&lt;/u&gt;&lt;br/&gt;Afnemers met deze autorisatie ontvangen:&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;openbare gegevens uit het Handelsregister&lt;/li&gt;&lt;li&gt;de gegevens van een afgeschermd adres&lt;/li&gt;&lt;/ul&gt;<br />De beroepsgroep advocaten, gerechtsdeurwaarders &#233;n notarissen heeft voor uitoefening van haar publieke taken afgeschermde adressen van een natuurlijk persoon nodig. In artikel 51 van het Handelsregisterbesluit is vastgelegd dat deze beroepsgroep, in tegenstelling tot andere marktpartijen, inzage in afgeschermde adressen van een natuurlijke personen mag ontvangen. &lt;br/&gt;Voor meer informatie: &lt;a href=&quot;file://https://wetten.overheid.nl/BWBR0024067/2017-03-10%20l%20Hoofdstuk8&quot;&gt;&lt;font color=&quot;#0563c1&quot;&gt;&lt;u&gt;https://wetten.overheid.nl/BWBR0024067/2017-03-10#Hoofdstuk8&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;u&gt;3.	Openbare gegevens inclusief afgeschermde adressen en BSN (autorisatie: bestuursorgaan)&lt;/u&gt;&lt;br/&gt;Afnemers met deze autorisatie ontvangen:&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;openbare gegevens uit het Handelsregister&lt;/li&gt;&lt;li&gt;de gegevens van een afgeschermd adres&lt;/li&gt;&lt;li&gt;Van de Natuurlijk Persoon de: BSN, woonadres, geboorteland en geboorteplaats&lt;/li&gt;&lt;/ul&gt;<br />In artikel 1:1 lid 1 onder a Algemene Wet Bestuursrecht staat de definitie van bestuursorganen opgenomen. &lt;br/&gt;Voor meer informatie: &lt;a href=&quot;file://https://wetten.overheid.nl/BWBR0005537/2019-01-01&quot;&gt;&lt;font color=&quot;#0563c1&quot;&gt;&lt;u&gt;https://wetten.overheid.nl/BWBR0005537/2019-01-01&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;&lt;br/&gt;In artikel 51 van het Handelsregisterbesluit is vastgelegd dat deze groep afnemers inzage in afgeschermde adressen van een natuurlijke personen mag ontvangen: &lt;br/&gt;Voor meer informatie: &lt;a href=&quot;file://https://wetten.overheid.nl/BWBR0024067/2017-03-10%20l%20Hoofdstuk8&quot;&gt;&lt;font color=&quot;#0563c1&quot;&gt;&lt;u&gt;https://wetten.overheid.nl/BWBR0024067/2017-03-10#Hoofdstuk8&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;&lt;br/&gt;In artikel 28, lid 3 van de Handelsregisterwet is vastgelegd welke groep afnemers gerechtigd is te zoeken op natuurlijke personen. &lt;br/&gt;Voor meer informatie: &lt;a href=&quot;file://https://wetten.overheid.nl/BWBR0021777/2019-01-01%20l%20Hoofdstuk5&quot;&gt;&lt;font color=&quot;#0563c1&quot;&gt;&lt;u&gt;https://wetten.overheid.nl/BWBR0021777/2019-01-01#Hoofdstuk5&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;u&gt;4.	Openbare gegevens inclusief afgeschermde adressen, BSN en elektronische handtekening (bijzonder bestuursorgaan)&lt;/u&gt;&lt;br/&gt;Afnemers met deze autorisatie ontvangen:&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;openbare gegevens uit het Handelsregister&lt;/li&gt;&lt;li&gt;de gegevens van een afgeschermd adres&lt;/li&gt;&lt;li&gt;Van de Natuurlijk Persoon de: BSN (zoeken op natuurlijk persoon), woonadres, geboorteland en geboorteplaats&lt;/li&gt;&lt;li&gt;(elektronische) handtekening van een natuurlijk persoon&lt;/li&gt;&lt;/ul&gt;<br />Aangezien elektronische handtekeningen (nog) niet verstrekt worden via Handelsregister Dataservice wordt deze autorisatie momenteel niet gebruikt.&lt;br/&gt;&lt;br/&gt;Woonadressen van natuurlijk personen zijn (vanaf 1-1-2021) geen openbare gegevens meer. Deze worden alleen nog geleverd aan geautoriseerde afnemers. Behalve voor de Bewaarder van Boeken en Bescheiden, hiervan is het woonadres wel een openbaar gegeven.&lt;br/&gt;&lt;br/&gt;Indien er (elektronisch) wordt aangesloten op het Handelsregister, dan wordt het autorisatieniveau bepaald waarmee de afnemer de gegevens kan ophalen. Producten waarvoor niet behoeft te worden aangesloten (bijvoorbeeld het Uittreksel via de website) of die anoniem worden besteld, worden verstrekt met gegevensautorisatieniveau &#8216;Markt&#8217;.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Openbare en niet openbare gegevens UBO&lt;/b&gt;&lt;br/&gt;Met de introductie van de Ultimate Beneficial Owner zijn er voor producten waar een gegevens van een UBO in voorkopen de volgende gegevensautorisaties van toepassing:&lt;br/&gt;&lt;br/&gt;1.	Openbare gegevens&lt;br/&gt;In artikel 15a lid 2c Handelsregisterwet&#160;&#160;is opgenomen welke gegevens KVK van een UBO registreert. In lid c en e van dit artikel is beschreven wat de openbare gegevens zijn. &lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;&lt;u&gt;Persoonsgegevens:&lt;/u&gt;&lt;ul&gt;<br />&lt;li&gt;naam (voornamen en achternaam)&lt;/li&gt;&lt;li&gt;geboortemaand en &#8211;jaar&lt;/li&gt;&lt;li&gt;nationaliteit&lt;/li&gt;&lt;li&gt;woonstaat (=woonland)&lt;/li&gt;&lt;/ul&gt;<br />&lt;/li&gt;&lt;br/&gt;&lt;/ul&gt;<br />&lt;ul&gt;<br />&lt;li&gt;&lt;ul&gt;<br />&lt;li&gt;&lt;/li&gt;&lt;/ul&gt;<br />&lt;/li&gt;&lt;br/&gt;&lt;/ul&gt;<br />&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;&lt;u&gt;UBO-gegevens:&lt;/u&gt;&lt;ul&gt;<br />&lt;li&gt;de aard en omvang van het (economische) belang van de UBO&lt;/li&gt;&lt;/ul&gt;<br />&lt;/li&gt;&lt;br/&gt;&lt;/ul&gt;<br />&lt;ul&gt;<br />&lt;li&gt;&lt;ul&gt;<br />&lt;li&gt;&lt;/li&gt;&lt;/ul&gt;<br />&lt;/li&gt;&lt;br/&gt;&lt;/ul&gt;<br />&lt;br/&gt;2.	Afscherming&lt;br/&gt;Artikel 51b van het Handelsregisterbesluit regelt dat de persoonsgegevens van een UBO kunnen op verzoek afgeschermd worden in geval van:&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;minderjarigheid&lt;/li&gt;&lt;li&gt;ondercuratelestelling&lt;/li&gt;&lt;li&gt;bewindvoering&lt;/li&gt;&lt;li&gt;Politiebescherming&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Afgeschermde persoonsgegevens zijn alleen inzichtelijk voor bevoegde autoriteiten en Wwft-organisaties.&lt;br/&gt;Wwft staat voor de Wet ter voorkoming van witwassen en financieren van terrorisme (Wwft). Deze wet legt verplichtingen aan organisaties die onder deze wet vallen, met name op het gebied van cli&#235;ntenonderzoek, met als doel witwassen en terrorismefinanciering te bestrijden. Hieronder vallen bijvoorbeeld: &lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;kredietinstellingen&lt;/li&gt;&lt;li&gt;financi&#235;le instellingen&lt;/li&gt;&lt;li&gt;accountants en belastingadviseurs&lt;/li&gt;&lt;li&gt;notarissen&lt;/li&gt;&lt;li&gt;advocaten&lt;/li&gt;&lt;li&gt;makelaars in onroerend goed&lt;/li&gt;&lt;li&gt;aanbieders van trust- of bedrijfsdiensten&lt;/li&gt;&lt;li&gt;personen die handelen in goederen voor zover in contanten wordt betaald of ontvangen voor een bedrag vanaf 7.500 euro.&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;3.	Niet-openbare gegevens&lt;br/&gt;In artikel 28a van de Handelsregisterwet is geregeld dat bevoegde autoriteiten de niet-openbare gegevens die KVK registreert mogen ontvangen (dit zijn de gegevens die in artikel 15a, b en d van de Handelsregisterwet zijn opgenomen). &lt;br/&gt;&lt;br/&gt;&lt;u&gt;Persoonsgegevens&lt;/u&gt;:&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;geboortedag&lt;/li&gt;&lt;li&gt;geboorteplaats&lt;/li&gt;&lt;li&gt;geboorteland&lt;/li&gt;&lt;li&gt;adres (straat, huisnummer, eventueel huisletter en huisnummertoevoeging, postcode, woonplaats)&lt;/li&gt;&lt;li&gt;BSN en/of buitenlands identificatienummer (TIN)&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;&lt;u&gt;UBO-gegevens:&lt;/u&gt;&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;kopie van het document met behulp waarvan de identiteit is geverifieerd&lt;/li&gt;&lt;li&gt;documentatie waarmee wordt onderbouwd waarom een persoon de status van UBO heeft en de precieze omvang van het daarbij behorend (economisch) belang&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;In artikel 51b van het Handelsregisterbesluit is opgenomen welke bevoegde autoriteiten toegang hebben tot niet-openbare gegevens. Voorbeelden zijn het Openbaar Ministerie, de Nationale Politie en de Financial Intelligence Unit. &lt;br/&gt;</div>
+
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.2.3.9:1", "", "FusieSplitsing", "EARoot/EA2/EA3/EA9/EA286.htm", "175.png", "2974", "0", "", "Logical diagram0","{8D730F02-B81C-4c84-BB6B-1BD2AC38AC27}");
+tocTab[tocTab.length] = new Array("0.2.3.9:2", "", "«gegevensgroep» Fusie", "EARoot/EA2/EA3/EA9/EA289.htm", "5.png", "E17966", "0", "", "Class0","{DF97AAFB-BE14-44bc-BE10-F7676F8E0F09}");
+tocTab[tocTab.length] = new Array("0.2.3.9:3", "", "«gegevensgroep» Splitsing", "EARoot/EA2/EA3/EA9/EA290.htm", "5.png", "E17967", "0", "", "Class0","{61489F7F-4F54-4e18-8B63-353E330A8AA4}");
+tocTab[tocTab.length] = new Array("0.2.3.9:4", "", "«gegevensgroep» FusieSplitsing", "EARoot/EA2/EA3/EA9/EA291.htm", "5.png", "E17960", "0", "", "Class0","{CD2F1246-352D-46fd-AA0C-64C11865C182}");
+tocTab[tocTab.length] = new Array("0.2.3.9:5", "", "«gegevensgroep» OpTeRichtenRechtspersoon", "EARoot/EA2/EA3/EA9/EA292.htm", "5.png", "E17962", "0", "", "Class0","{F16F85BD-DD61-4bc8-AF18-38AE4853F6FE}");

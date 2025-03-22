@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.2.3.17:1", "", "«gegevensgroep» Ontbinding", "EARoot/EA2/EA3/EA17/EA336.htm", "5.png", "E16928", "0", "", "Class0","{71E3FF5D-C798-4985-92C6-1CDAB4F56805}");
+tocTab[tocTab.length] = new Array("0.2.3.17:2", "", "«gegevensgroep» Liquidatie", "EARoot/EA2/EA3/EA17/EA337.htm", "5.png", "E16926", "0", "", "Class0","{3C9D5B81-D1A3-4f97-95C5-C0DA2031B4FC}");
+tocTab[tocTab.length] = new Array("0.2.3.17:3", "", "«gegevensgroep» VoornemenTotOntbinding", "EARoot/EA2/EA3/EA17/EA338.htm", "5.png", "E16929", "0", "", "Class0","{0AE0DD5A-1C5C-4f1e-AB5B-45528E305B10}");
