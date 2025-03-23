@@ -1,5 +1,5 @@
-tocTab[tocTab.length] = new Array("0.2.2.3:1", "", "Vestiging", "EARoot/EA2/EA2/EA3/EA156.htm", "175.png", "1689", "0", "", "Logical diagram0","{E77FFC19-6855-457a-9C20-4240A6C69696}");
-tocTab[tocTab.length] = new Array("0.2.2.3:2", "", "«objecttype» Vestiging", "EARoot/EA2/EA2/EA3/EA163.htm", "5.png", "E8680", "0", "", "Class0","{E250D060-2966-4e86-9D41-A1CB66CD35EB}");
-tocTab[tocTab.length] = new Array("0.2.2.3:3", "", "«objecttype» CommerciëleVestiging", "EARoot/EA2/EA2/EA3/EA164.htm", "5.png", "E8679", "0", "", "Class0","{AC694613-5B43-49df-812E-074E069CF1C2}");
-tocTab[tocTab.length] = new Array("0.2.2.3:4", "", "«objecttype» NietCommerciëleVestiging", "EARoot/EA2/EA2/EA3/EA165.htm", "5.png", "E8677", "0", "", "Class0","{2182606F-08A6-478b-8572-99EE282768F4}");
-tocTab[tocTab.length] = new Array("0.2.2.3:5", "", "«gegevensgroep» Samenvoeging", "EARoot/EA2/EA2/EA3/EA166.htm", "5.png", "E8678", "0", "", "Class0","{9225A60F-B806-4126-AA52-7257E3940575}");
+tocTab[tocTab.length] = new Array("0.2.2.3:1", "", "Establishment", "EARoot/EA2/EA2/EA3/EA156.htm", "175.png", "1689", "0", "", "Logical diagram0","{E77FFC19-6855-457a-9C20-4240A6C69696}");
+tocTab[tocTab.length] = new Array("0.2.2.3:2", "", "«object type» establishment", "EARoot/EA2/EA2/EA3/EA163.htm", "5.png", "E8680", "0", "", "Class0","{E250D060-2966-4e86-9D41-A1CB66CD35EB}");
+tocTab[tocTab.length] = new Array("0.2.2.3:3", "", "«object type» commercial establishment", "EARoot/EA2/EA2/EA3/EA164.htm", "5.png", "E8679", "0", "", "Class0","{AC694613-5B43-49df-812E-074E069CF1C2}");
+tocTab[tocTab.length] = new Array("0.2.2.3:4", "", "«object type» noncommercial establishment", "EARoot/EA2/EA2/EA3/EA165.htm", "5.png", "E8677", "0", "", "Class0","{2182606F-08A6-478b-8572-99EE282768F4}");
+tocTab[tocTab.length] = new Array("0.2.2.3:5", "", "«data group» merge", "EARoot/EA2/EA2/EA3/EA166.htm", "5.png", "E8678", "0", "", "Class0","{9225A60F-B806-4126-AA52-7257E3940575}");

@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.2.3.14:1", "", "Rechterlijke Uitspraak", "EARoot/EA2/EA3/EA14/EA325.htm", "175.png", "2695", "0", "", "Logical diagram0","{499310DB-B176-4541-AAC0-7EAB53514D64}");
-tocTab[tocTab.length] = new Array("0.2.3.14:2", "", "«gegevensgroep» RechterlijkeUitspraak", "EARoot/EA2/EA3/EA14/EA328.htm", "5.png", "E17006", "0", "", "Class0","{B5D7F455-FA16-46ae-8FA1-131AAFB1D39F}");
-tocTab[tocTab.length] = new Array("0.2.3.14:3", "", "«gegevensgroep» Gerecht", "EARoot/EA2/EA3/EA14/EA329.htm", "5.png", "E17007", "0", "", "Class0","{FFB12443-CF55-4d5d-8D0A-D02E19C42E7B}");
-tocTab[tocTab.length] = new Array("0.2.3.14:4", "", "«gegevensgroep» Uitspraak", "EARoot/EA2/EA3/EA14/EA330.htm", "5.png", "E17008", "0", "", "Class0","{CB69918A-2B15-49c2-94AA-985668A4F049}");
+tocTab[tocTab.length] = new Array("0.2.3.14:1", "", "Court decision", "EARoot/EA2/EA3/EA14/EA325.htm", "175.png", "2695", "0", "", "Logical diagram0","{499310DB-B176-4541-AAC0-7EAB53514D64}");
+tocTab[tocTab.length] = new Array("0.2.3.14:2", "", "«data group» judicial ruling", "EARoot/EA2/EA3/EA14/EA328.htm", "5.png", "E17006", "0", "", "Class0","{B5D7F455-FA16-46ae-8FA1-131AAFB1D39F}");
+tocTab[tocTab.length] = new Array("0.2.3.14:3", "", "«data group» court", "EARoot/EA2/EA3/EA14/EA329.htm", "5.png", "E17007", "0", "", "Class0","{FFB12443-CF55-4d5d-8D0A-D02E19C42E7B}");
+tocTab[tocTab.length] = new Array("0.2.3.14:4", "", "«data group» pronunciation", "EARoot/EA2/EA3/EA14/EA330.htm", "5.png", "E17008", "0", "", "Class0","{CB69918A-2B15-49c2-94AA-985668A4F049}");

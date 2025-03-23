@@ -1,6 +1,6 @@
-tocTab[tocTab.length] = new Array("0.2.2.1:1", "", "Persoon", "EARoot/EA2/EA2/EA1/EA87.htm", "175.png", "1686", "0", "", "Logical diagram0","{71431305-520F-41e2-ACC6-1E4693A9863C}");
-tocTab[tocTab.length] = new Array("0.2.2.1:2", "", "«objecttype» Persoon", "EARoot/EA2/EA2/EA1/EA101.htm", "5.png", "E8655", "0", "", "Class0","{5A61477B-B208-4feb-81F6-0E2812ECC7E2}");
-tocTab[tocTab.length] = new Array("0.2.2.1:3", "", "«gegevensgroep» PersoonRelatie", "EARoot/EA2/EA2/EA1/EA102.htm", "5.png", "E23172", "0", "", "Class0","{0EF79652-A240-4170-AC1F-29D05F78CA28}");
-tocTab[tocTab.length] = new Array("0.2.2.1.1", "1", "NaamPersoon", "EARoot/EA2/EA2/EA1/EA1/EA107.htm", "4.png", "", "", "{09C70582-D2F5-45a1-A1D2-7DAEB1FB68A6}", "Package");
-tocTab[tocTab.length] = new Array("0.2.2.1.2", "1", "NatuurlijkPersoon", "EARoot/EA2/EA2/EA1/EA2/EA112.htm", "4.png", "", "", "{61ADDF0E-719F-40e3-96C9-F1033769A061}", "Package");
-tocTab[tocTab.length] = new Array("0.2.2.1.3", "1", "NietNatuurlijkPersoon", "EARoot/EA2/EA2/EA1/EA3/EA124.htm", "4.png", "", "", "{EF69D412-53F8-40f3-83AA-A5E0114184EC}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2.1:1", "", "Person", "EARoot/EA2/EA2/EA1/EA87.htm", "175.png", "1686", "0", "", "Logical diagram0","{71431305-520F-41e2-ACC6-1E4693A9863C}");
+tocTab[tocTab.length] = new Array("0.2.2.1:2", "", "«object type» person", "EARoot/EA2/EA2/EA1/EA101.htm", "5.png", "E8655", "0", "", "Class0","{5A61477B-B208-4feb-81F6-0E2812ECC7E2}");
+tocTab[tocTab.length] = new Array("0.2.2.1:3", "", "«data group» personrelationship", "EARoot/EA2/EA2/EA1/EA102.htm", "5.png", "E23172", "0", "", "Class0","{0EF79652-A240-4170-AC1F-29D05F78CA28}");
+tocTab[tocTab.length] = new Array("0.2.2.1.1", "1", "Nameperson", "EARoot/EA2/EA2/EA1/EA1/EA107.htm", "4.png", "", "", "{09C70582-D2F5-45a1-A1D2-7DAEB1FB68A6}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2.1.2", "1", "Naturalperson", "EARoot/EA2/EA2/EA1/EA2/EA112.htm", "4.png", "", "", "{61ADDF0E-719F-40e3-96C9-F1033769A061}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2.1.3", "1", "Notnaturalperson", "EARoot/EA2/EA2/EA1/EA3/EA124.htm", "4.png", "", "", "{EF69D412-53F8-40f3-83AA-A5E0114184EC}", "Package");

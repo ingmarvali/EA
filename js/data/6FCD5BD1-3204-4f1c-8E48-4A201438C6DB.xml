@@ -1,6 +1,6 @@
-tocTab[tocTab.length] = new Array("0.2.2.1", "1", "Persoon", "EARoot/EA2/EA2/EA1/EA89.htm", "4.png", "", "", "{82B9BB34-B2DD-4fb0-AF50-C5A45A18A697}", "Package");
-tocTab[tocTab.length] = new Array("0.2.2.2", "1", "Maatschappelijke Activiteit", "EARoot/EA2/EA2/EA2/EA146.htm", "4.png", "", "", "{52A12A5E-0AA2-46b2-8B67-9406753C918C}", "Package");
-tocTab[tocTab.length] = new Array("0.2.2.3", "1", "Vestiging", "EARoot/EA2/EA2/EA3/EA158.htm", "4.png", "", "", "{B01671C2-A91F-48de-A6D0-3A9EC977D421}", "Package");
-tocTab[tocTab.length] = new Array("0.2.2.4", "1", "FunctieVervulling", "EARoot/EA2/EA2/EA4/EA169.htm", "4.png", "", "", "{60DF1B94-F4B6-42bf-9D6E-3B0336FAD583}", "Package");
-tocTab[tocTab.length] = new Array("0.2.2.5", "1", "Deponeringen", "EARoot/EA2/EA2/EA5/EA183.htm", "4.png", "", "", "{5A0DE265-5A44-4be1-93CB-48BE4504EFB8}", "Package");
-tocTab[tocTab.length] = new Array("0.2.2.6", "1", "Gebeurtenis", "EARoot/EA2/EA2/EA6/EA201.htm", "4.png", "", "", "{A250DC77-C854-4ef3-8F7C-A91FC528C666}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2.1", "1", "Person", "EARoot/EA2/EA2/EA1/EA89.htm", "4.png", "", "", "{82B9BB34-B2DD-4fb0-AF50-C5A45A18A697}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2.2", "1", "Social activity", "EARoot/EA2/EA2/EA2/EA146.htm", "4.png", "", "", "{52A12A5E-0AA2-46b2-8B67-9406753C918C}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2.3", "1", "Establishment", "EARoot/EA2/EA2/EA3/EA158.htm", "4.png", "", "", "{B01671C2-A91F-48de-A6D0-3A9EC977D421}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2.4", "1", "Performance of functions", "EARoot/EA2/EA2/EA4/EA169.htm", "4.png", "", "", "{60DF1B94-F4B6-42bf-9D6E-3B0336FAD583}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2.5", "1", "Filings", "EARoot/EA2/EA2/EA5/EA183.htm", "4.png", "", "", "{5A0DE265-5A44-4be1-93CB-48BE4504EFB8}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2.6", "1", "Event", "EARoot/EA2/EA2/EA6/EA201.htm", "4.png", "", "", "{A250DC77-C854-4ef3-8F7C-A91FC528C666}", "Package");

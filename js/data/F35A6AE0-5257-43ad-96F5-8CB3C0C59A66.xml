@@ -1,3 +1,3 @@
-tocTab[tocTab.length] = new Array("0.2.3.6:1", "", "«gegevensgroep» BuitenlandseRegistratieGegevens", "EARoot/EA2/EA3/EA6/EA262.htm", "5.png", "E17968", "0", "", "Class0","{D2208317-EA05-4bcd-AD17-E7284DA29791}");
-tocTab[tocTab.length] = new Array("0.2.3.6:2", "", "«gegevensgroep» GrensoverschrijdendeOmzetting", "EARoot/EA2/EA3/EA6/EA263.htm", "5.png", "E23422", "0", "", "Class0","{85B8305C-7037-4f5b-B5DF-DA440FBDA9D2}");
-tocTab[tocTab.length] = new Array("0.2.3.6:3", "", "«gegevensgroep» BuitenlandseVennootschapGegevens", "EARoot/EA2/EA3/EA6/EA264.htm", "5.png", "E8754", "0", "", "Class0","{D0C7DF67-EF02-401e-BF80-9AD6B0413F1B}");
+tocTab[tocTab.length] = new Array("0.2.3.6:1", "", "«data group» foreignregistrationdata", "EARoot/EA2/EA3/EA6/EA262.htm", "5.png", "E17968", "0", "", "Class0","{D2208317-EA05-4bcd-AD17-E7284DA29791}");
+tocTab[tocTab.length] = new Array("0.2.3.6:2", "", "«data group» cross-border conversion", "EARoot/EA2/EA3/EA6/EA263.htm", "5.png", "E23422", "0", "", "Class0","{85B8305C-7037-4f5b-B5DF-DA440FBDA9D2}");
+tocTab[tocTab.length] = new Array("0.2.3.6:3", "", "«data group» foreign companydata", "EARoot/EA2/EA3/EA6/EA264.htm", "5.png", "E8754", "0", "", "Class0","{D0C7DF67-EF02-401e-BF80-9AD6B0413F1B}");

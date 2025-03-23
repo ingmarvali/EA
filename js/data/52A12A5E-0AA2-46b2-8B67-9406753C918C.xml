@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.2.2.2:1", "", "Maatschappelijke Activiteit", "EARoot/EA2/EA2/EA2/EA144.htm", "175.png", "1688", "0", "", "Logical diagram0","{33426B82-B954-4828-A8EF-DA1D6167917B}");
-tocTab[tocTab.length] = new Array("0.2.2.2:2", "", "«objecttype» MaatschappelijkeActiviteit", "EARoot/EA2/EA2/EA2/EA153.htm", "5.png", "E8673", "0", "", "Class0","{30E430C8-EFA6-4b1a-8C60-716D166F83C3}");
-tocTab[tocTab.length] = new Array("0.2.2.2:3", "", "«objecttype» Onderneming", "EARoot/EA2/EA2/EA2/EA154.htm", "5.png", "E8674", "0", "", "Class0","{5F4E660E-82D3-4a06-8D9D-BF457C31AF5E}");
-tocTab[tocTab.length] = new Array("0.2.2.2:4", "", "«gegevensgroep» OndernemingRelatie", "EARoot/EA2/EA2/EA2/EA155.htm", "5.png", "E23175", "0", "", "Class0","{BB1ADAB9-CE44-43be-B49A-64B212CAD02C}");
+tocTab[tocTab.length] = new Array("0.2.2.2:1", "", "Social activity", "EARoot/EA2/EA2/EA2/EA144.htm", "175.png", "1688", "0", "", "Logical diagram0","{33426B82-B954-4828-A8EF-DA1D6167917B}");
+tocTab[tocTab.length] = new Array("0.2.2.2:2", "", "«object type» social activity", "EARoot/EA2/EA2/EA2/EA153.htm", "5.png", "E8673", "0", "", "Class0","{30E430C8-EFA6-4b1a-8C60-716D166F83C3}");
+tocTab[tocTab.length] = new Array("0.2.2.2:3", "", "«object type» company", "EARoot/EA2/EA2/EA2/EA154.htm", "5.png", "E8674", "0", "", "Class0","{5F4E660E-82D3-4a06-8D9D-BF457C31AF5E}");
+tocTab[tocTab.length] = new Array("0.2.2.2:4", "", "«data group» companyrelationship", "EARoot/EA2/EA2/EA2/EA155.htm", "5.png", "E23175", "0", "", "Class0","{BB1ADAB9-CE44-43be-B49A-64B212CAD02C}");

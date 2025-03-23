@@ -1,3 +1,3 @@
-tocTab[tocTab.length] = new Array("0.2.3.1:1", "", "Historie", "EARoot/EA2/EA3/EA1/EA227.htm", "175.png", "2956", "0", "", "Logical diagram0","{B49630AC-BF7F-42ea-AD33-48A1C71A13AC}");
-tocTab[tocTab.length] = new Array("0.2.3.1:2", "", "FormeleRegistratie", "EARoot/EA2/EA3/EA1/EA230.htm", "5.png", "E17942", "0", "", "Class0","{13A861DA-6DC1-4ce2-A557-04255C130BA4}");
-tocTab[tocTab.length] = new Array("0.2.3.1:3", "", "MateriëleRegistratie", "EARoot/EA2/EA3/EA1/EA231.htm", "5.png", "E17943", "0", "", "Class0","{207C7DFF-634C-4a27-8E49-5F68697DC296}");
+tocTab[tocTab.length] = new Array("0.2.3.1:1", "", "History", "EARoot/EA2/EA3/EA1/EA227.htm", "175.png", "2956", "0", "", "Logical diagram0","{B49630AC-BF7F-42ea-AD33-48A1C71A13AC}");
+tocTab[tocTab.length] = new Array("0.2.3.1:2", "", "Formalregistration", "EARoot/EA2/EA3/EA1/EA230.htm", "5.png", "E17942", "0", "", "Class0","{13A861DA-6DC1-4ce2-A557-04255C130BA4}");
+tocTab[tocTab.length] = new Array("0.2.3.1:3", "", "Material registration", "EARoot/EA2/EA3/EA1/EA231.htm", "5.png", "E17943", "0", "", "Class0","{207C7DFF-634C-4a27-8E49-5F68697DC296}");

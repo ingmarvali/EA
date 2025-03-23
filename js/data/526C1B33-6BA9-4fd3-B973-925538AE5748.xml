@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.2.3.12:1", "", "Kapitaal", "EARoot/EA2/EA3/EA12/EA303.htm", "175.png", "1695", "0", "", "Logical diagram0","{0DB2D35E-223E-4240-9338-4EB73E6370D7}");
-tocTab[tocTab.length] = new Array("0.2.3.12:2", "", "«gegevensgroep» Aandeel", "EARoot/EA2/EA3/EA12/EA306.htm", "5.png", "E8773", "0", "", "Class0","{DAE410B8-571B-4865-A43C-42B82DCA524B}");
-tocTab[tocTab.length] = new Array("0.2.3.12:3", "", "«gegevensgroep» AandeelSamenstelling", "EARoot/EA2/EA3/EA12/EA307.htm", "5.png", "E8774", "0", "", "Class0","{E302B2C6-9CEC-4fcb-9A17-BCD8863DB863}");
-tocTab[tocTab.length] = new Array("0.2.3.12:4", "", "«gegevensgroep» Kapitaal", "EARoot/EA2/EA3/EA12/EA308.htm", "5.png", "E8772", "0", "", "Class0","{C47B2AD8-72F8-4427-9185-D7A20DEFBE4A}");
+tocTab[tocTab.length] = new Array("0.2.3.12:1", "", "Capital", "EARoot/EA2/EA3/EA12/EA303.htm", "175.png", "1695", "0", "", "Logical diagram0","{0DB2D35E-223E-4240-9338-4EB73E6370D7}");
+tocTab[tocTab.length] = new Array("0.2.3.12:2", "", "«data group» share", "EARoot/EA2/EA3/EA12/EA306.htm", "5.png", "E8773", "0", "", "Class0","{DAE410B8-571B-4865-A43C-42B82DCA524B}");
+tocTab[tocTab.length] = new Array("0.2.3.12:3", "", "«data group» sharecomposition", "EARoot/EA2/EA3/EA12/EA307.htm", "5.png", "E8774", "0", "", "Class0","{E302B2C6-9CEC-4fcb-9A17-BCD8863DB863}");
+tocTab[tocTab.length] = new Array("0.2.3.12:4", "", "«data group» capital", "EARoot/EA2/EA3/EA12/EA308.htm", "5.png", "E8772", "0", "", "Class0","{C47B2AD8-72F8-4427-9185-D7A20DEFBE4A}");

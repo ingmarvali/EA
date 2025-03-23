@@ -1,2 +1,2 @@
-tocTab[tocTab.length] = new Array("0.2.2.1.2:1", "", "NatuurlijkPersoon", "EARoot/EA2/EA2/EA1/EA2/EA110.htm", "175.png", "231", "0", "", "Logical diagram0","{9C0E5F91-E171-4dbe-B2E8-692C0508BA5E}");
-tocTab[tocTab.length] = new Array("0.2.2.1.2:2", "", "«objecttype» NatuurlijkPersoon", "EARoot/EA2/EA2/EA1/EA2/EA115.htm", "5.png", "E8661", "0", "", "Class0","{56F68AAA-8192-42f0-AA55-BB742F36E917}");
+tocTab[tocTab.length] = new Array("0.2.2.1.2:1", "", "Naturalperson", "EARoot/EA2/EA2/EA1/EA2/EA110.htm", "175.png", "231", "0", "", "Logical diagram0","{9C0E5F91-E171-4dbe-B2E8-692C0508BA5E}");
+tocTab[tocTab.length] = new Array("0.2.2.1.2:2", "", "«object type» naturalperson", "EARoot/EA2/EA2/EA1/EA2/EA115.htm", "5.png", "E8661", "0", "", "Class0","{56F68AAA-8192-42f0-AA55-BB742F36E917}");

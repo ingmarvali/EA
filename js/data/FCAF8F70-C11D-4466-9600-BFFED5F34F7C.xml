@@ -1,2 +1,2 @@
-tocTab[tocTab.length] = new Array("0.2.3.19:1", "", "«gegevensgroep» CommanditairKapitaal", "EARoot/EA2/EA3/EA19/EA342.htm", "5.png", "E8791", "0", "", "Class0","{4BBC8304-D9E8-4f4c-BB45-F6C236AFEBDC}");
-tocTab[tocTab.length] = new Array("0.2.3.19:2", "", "«gegevensgroep» Duur", "EARoot/EA2/EA3/EA19/EA343.htm", "5.png", "E8792", "0", "", "Class0","{D3B2DCFE-2FED-4e15-9142-22F03DF659CF}");
+tocTab[tocTab.length] = new Array("0.2.3.19:1", "", "«data group» limited capital", "EARoot/EA2/EA3/EA19/EA342.htm", "5.png", "E8791", "0", "", "Class0","{4BBC8304-D9E8-4f4c-BB45-F6C236AFEBDC}");
+tocTab[tocTab.length] = new Array("0.2.3.19:2", "", "«data group» duration", "EARoot/EA2/EA3/EA19/EA343.htm", "5.png", "E8792", "0", "", "Class0","{D3B2DCFE-2FED-4e15-9142-22F03DF659CF}");

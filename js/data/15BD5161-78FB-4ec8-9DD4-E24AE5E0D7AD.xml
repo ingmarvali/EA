@@ -1,6 +1,6 @@
-tocTab[tocTab.length] = new Array("0.2:1", "", "HR-Model Overzicht (conceptueel)", "EARoot/EA2/EA11.htm", "175.png", "2917", "0", "", "Logical diagram0","{650768AC-5CA1-4cb2-B824-41CD639BA86F}");
-tocTab[tocTab.length] = new Array("0.2:2", "", "HR-Model Overzicht (volledig)", "EARoot/EA2/EA13.htm", "175.png", "1681", "0", "", "Logical diagram0","{AD5B6D31-8A08-4c4b-8D29-FD65FBBBA501}");
-tocTab[tocTab.length] = new Array("0.2.1", "1", "Overzicht rechtsvormen", "EARoot/EA2/EA1/EA43.htm", "4.png", "", "", "{3D72776A-3D57-4811-A424-4750B7F24008}", "Package");
-tocTab[tocTab.length] = new Array("0.2.2", "1", "HR-Model Objecttypen", "EARoot/EA2/EA2/EA80.htm", "4.png", "", "", "{6FCD5BD1-3204-4f1c-8E48-4A201438C6DB}", "Package");
-tocTab[tocTab.length] = new Array("0.2.3", "1", "HR-Model Gegevensgroepen", "EARoot/EA2/EA3/EA203.htm", "4.png", "", "", "{2393FB34-E6D8-4d62-972D-18A245B2EFFC}", "Package");
-tocTab[tocTab.length] = new Array("0.2.4", "1", "HR-Model Domeinwaarden", "EARoot/EA2/EA4/EA358.htm", "4.png", "", "", "{111EB8DF-8C5C-4575-B73C-85A580BBBA95}", "Package");
+tocTab[tocTab.length] = new Array("0.2:1", "", "Trade Register Model Overview (conceptual)", "EARoot/EA2/EA11.htm", "175.png", "2917", "0", "", "Logical diagram0","{650768AC-5CA1-4cb2-B824-41CD639BA86F}");
+tocTab[tocTab.length] = new Array("0.2:2", "", "Trade Register Model Overview (complete)", "EARoot/EA2/EA13.htm", "175.png", "1681", "0", "", "Logical diagram0","{AD5B6D31-8A08-4c4b-8D29-FD65FBBBA501}");
+tocTab[tocTab.length] = new Array("0.2.1", "1", "Overview of Legal Forms", "EARoot/EA2/EA1/EA43.htm", "4.png", "", "", "{3D72776A-3D57-4811-A424-4750B7F24008}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2", "1", "Trade Register Model Object Types", "EARoot/EA2/EA2/EA80.htm", "4.png", "", "", "{6FCD5BD1-3204-4f1c-8E48-4A201438C6DB}", "Package");
+tocTab[tocTab.length] = new Array("0.2.3", "1", "Trade Register Model Data Groups", "EARoot/EA2/EA3/EA203.htm", "4.png", "", "", "{2393FB34-E6D8-4d62-972D-18A245B2EFFC}", "Package");
+tocTab[tocTab.length] = new Array("0.2.4", "1", "Trade Register Model Domain Values", "EARoot/EA2/EA4/EA358.htm", "4.png", "", "", "{111EB8DF-8C5C-4575-B73C-85A580BBBA95}", "Package");
